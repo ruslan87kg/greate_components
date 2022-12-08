@@ -1,0 +1,64 @@
+.topbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  color: white;
+  z-index: 2;
+  -webkit-transform: all 0.9s ease;
+      -ms-transform: all 0.9s ease;
+          transform: all 0.9s ease;
+}
+.topbar__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 30px;
+}
+.topbar__logo {
+  margin-right: 40px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.topbar__logo--link {
+  text-decoration: none;
+  color: inherit;
+}
+.topbar__icon {
+  margin-right: 200px;
+  color: white;
+}
+.topbar__phone {
+  margin-right: 30px;
+}
+.topbar__button {
+  width: 40px;
+  height: 40px;
+  margin-top: 4px;
+  padding: 10px 10px;
+  background-image: url("../ascets/imag/menu.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3 ease;
+  -o-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+}
+.topbar__button--active {
+  background-color: black;
+  color: white;
+}
+.topbar__button--active.topbar__button {
+  background-color: white;
+  color: black;
+}/*# sourceMappingURL=topbar.min.css.map */

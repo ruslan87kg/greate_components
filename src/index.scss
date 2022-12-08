@@ -1,0 +1,13 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+section {
+  padding-top: 100px;
+  min-height: 95vh;
+}

@@ -1,3 +1,31 @@
 .intro {
   background-color: fuchsia;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+  }
+  &__left {
+    text-align: center;
+    width: 50%;
+    & img {
+      height: 60vh;
+      border-radius: 150vh;
+    }
+  }
+  &__right {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    color: red;
+  }
+  &__icon {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: red;
+    color: black;
+  }
 }
